@@ -1,0 +1,97 @@
+/* 
+My webpage concept idea of WEShall was born out of a UX research project, 
+Colors and Typography derived from demographic research of target market users who requested unique styling.
+Simplicity of page content, colors, and key features come from target audience. 
+
+WeShall Style Guide
+Hex Colors Red #CC0000; Black #000000; Grey #E5E5E5; White #FFFFFF;  
+Typography H1-Roboto black 50px; H2-Roboto, bold, 24px; p1-Roboto, regular, 24px; p2-Roboto, regular, 18px 
+*/
+
+body {
+    font-family: 'Roboto', 'neo-groteque', sans-serif;
+    background: white solid;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#header1 {
+    color: black solid;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#header2 {
+    color: #CC0000;
+    text-align: center;
+}
+
+.topphoto {
+    text-align: center;
+    font-size: 28px;
+}
+
+#missionStatement {
+    color: #CC0000;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bussiness-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.businessweek {
+    text-align: center;
+    color: black solid;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.businessweekpanel {
+    width: 300px;
+    margin: 0 0 2.0em 1.5em;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.categoryheader {
+    color: black solid;
+    font-size: 28px;
+}
+
+#ladybugKnowledge {
+    float: left;
+    position: relative;
+    margin-top: 1rem;
+    padding-top: 0;
+    padding-left: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#footer {
+    margin-top: 1rem;
+    border-top: solid .25px black;
+    padding-top: 0;
+    padding-left: 20px;
+    font-size: 10px;
+    text-align: left;
+    color: darkslategrey;
+}
+
+img:hover {
+    cursor: pointer;
+    }
+
